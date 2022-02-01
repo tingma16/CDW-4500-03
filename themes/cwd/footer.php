@@ -13,10 +13,9 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-
 				<?php
 				/* translators: 1: Copyright 2: site. */
-				printf( esc_html__( 'Copyright %1$s by %2$s.', 'cwd' ), 'cwd', '<a href="' . home_url'">CWD 4500 03</a>' );
+				printf( esc_html__( 'Copyright %1$s by %2$s.', 'cwd' ), '2022', '<a href="' . home_url() . '">CWD 4500 03</a>' );
 				?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
